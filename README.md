@@ -38,7 +38,7 @@ https://drive.google.com/file/d/1JNrSVZrK4TfC7pFG-r7AOmGvBXF2VFOt/view?usp=shari
 3. Run `python train.py` (You can also customize the training configurations. See `train.py`.)
 
 # Results
-The model was trained for 1600 epochs on a dataset comprising 42 pairs of line & sketch images, and it took about 6 hours with RTX 4090.
+The model was trained for 1600 epochs on a dataset comprising 42 pairs of line & sketch images, and it took about 6 hours with RTX 4090.  
 The line images are borrowed from the dataset of [DifferSketching](https://chufengxiao.github.io/DifferSketching/#dataset) ([Download Link](https://drive.google.com/file/d/1A_3RVc8Y4YdI7nhyM7tb-q7dQw4zTcCO/view)). Corresponding sketch images were drawn by my sister.
 
 During training, the model generated following images given (augmented) line images. Compare to the ground truths, it shows fair quality.
@@ -62,6 +62,6 @@ After the training is completed, below are examples of images inferred from line
 - [ ] Introduce *Adversarial augmentation* framwork proposed in [1] to incorporate unsupervised dataset.
 
 # References
-[1] Edgar Simo-Serra, Satoshi Iizuka, Hiroshi Ishikawa: “Mastering Sketching: Adversarial Augmentation for Structured Prediction”, 2017; [http://arxiv.org/abs/1703.08966 arXiv:1703.08966].
-[2] Yijun Li, Chen Fang, Aaron Hertzmann, Eli Shechtman, Ming-Hsuan Yang: “Im2Pencil: Controllable Pencil Illustration from Photographs”, 2019; [http://arxiv.org/abs/1903.08682 arXiv:1903.08682].
-[3] Edgar Simo-Serra, Satoshi Iizuka, Kazuma Sasaki, Hiroshi Ishikawa: "Learning to simplify: fully convolutional networks for rough sketch cleanup", 2016; [https://dl.acm.org/doi/10.1145/2897824.2925972]
+[1] Edgar Simo-Serra, Satoshi Iizuka, Hiroshi Ishikawa: “Mastering Sketching: Adversarial Augmentation for Structured Prediction”, 2017; [http://arxiv.org/abs/1703.08966 arXiv:1703.08966].  
+[2] Yijun Li, Chen Fang, Aaron Hertzmann, Eli Shechtman, Ming-Hsuan Yang: “Im2Pencil: Controllable Pencil Illustration from Photographs”, 2019; [http://arxiv.org/abs/1903.08682 arXiv:1903.08682].  
+[3] Edgar Simo-Serra, Satoshi Iizuka, Kazuma Sasaki, Hiroshi Ishikawa: "Learning to simplify: fully convolutional networks for rough sketch cleanup", 2016; [https://dl.acm.org/doi/10.1145/2897824.2925972].  
